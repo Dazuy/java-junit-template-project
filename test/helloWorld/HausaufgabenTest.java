@@ -17,7 +17,7 @@ public class HausaufgabenTest {
 	}
 	
 	@Test
-	public void GroﬂeSummeTest() {
+	public void GrosseSummeTest() {
 		rn = new Rechnen();
 		String text = rn.Berechnen(1000, 5000);
 		assertEquals("GrosseSumme", text);
