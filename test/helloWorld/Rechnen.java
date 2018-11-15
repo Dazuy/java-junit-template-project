@@ -9,7 +9,11 @@ public class Rechnen {
 		text = "KleineSumme";
 	}
 	
-	if (i+j >10) {
+	if (i+j >10 && i+j <=100) {
+		text = "MittlereSumme";
+	}
+	
+	if (i+j >100) {
 		text = "GrosseSumme";
 	}
 	

@@ -17,6 +17,13 @@ public class HausaufgabenTest {
 	}
 	
 	@Test
+	public void MittlereSummeTest() {
+		rn = new Rechnen();
+		String text = rn.Berechnen(10, 50);
+		assertEquals("MittlereSumme", text);
+	}
+	
+	@Test
 	public void GrosseSummeTest() {
 		rn = new Rechnen();
 		String text = rn.Berechnen(1000, 5000);
