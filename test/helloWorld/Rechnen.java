@@ -10,7 +10,7 @@ public class Rechnen {
 	}
 	
 	if (i+j >10) {
-		text = "GroﬂeSumme";
+		text = "GrosseSumme";
 	}
 	
 	return text;

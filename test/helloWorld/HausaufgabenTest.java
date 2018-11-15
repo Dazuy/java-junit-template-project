@@ -20,7 +20,7 @@ public class HausaufgabenTest {
 	public void GroﬂeSummeTest() {
 		rn = new Rechnen();
 		String text = rn.Berechnen(1000, 5000);
-		assertEquals("GroﬂeSumme", text);
+		assertEquals("GrosseSumme", text);
 	}
 	
 	
