@@ -1,11 +1,19 @@
 package helloWorld;
 
 public class Rechnen {
+
+	public String Berechnen(int i,int j) {
+	String text ="";
 	
-	public int Berechnen(int i,int j) {
+	if (i+j < 10 ) {
+		text = "KleineSumme";
+	}
 	
-	int c = 0;
-	return 0;
+	if (i+j >10) {
+		text = "GroﬂeSumme";
+	}
+	
+	return text;
 
 }
 }
